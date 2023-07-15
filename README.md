@@ -7,6 +7,7 @@ cd ~
 git clone https://github.com/jerryzz668/ECNU-Login
 mv ECNU-Login/.auth-setting .
 mv ECNU-Login/auth_client .
+chmod +x auth_client
 
 # login
 ./auth_client -u <account> -p <passwd>
